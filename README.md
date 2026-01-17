@@ -1,0 +1,2 @@
+# Kata5
+Voy a refactorizar la aplicación para introducir una capa de persistencia con SQLite. El sistema tendrá ahora dos responsabilidades claras y separadas: una será la extracción de datos desde un endpoint remoto para persistirlos en local, y la otra será la consulta a esa base de datos para alimentar el modelo del histograma, dejando de depender exclusivamente de la memoria RAM para el almacenamiento de los registros.
